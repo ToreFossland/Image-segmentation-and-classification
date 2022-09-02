@@ -1,1 +1,7 @@
 # Image-segmentation-and-classification
+
+We had three main objectives in this work on digital image analysis. The first is to acquire images of household items to form a dataset. Then we want to organize the set of data in Google Drive, in folders and in a hierarchical way. We will include two metadata tables of the collected images. The first table contains general information about the files, and the second describe each chosen class in detail.
+
+The second objective is the processing and normalization of the data set obtained in the first objective. To achieve this, we will provide the logic to solve three essential computer vision tasks: Data augmentation, normalization and analysis of class variation. The data augmentation consisted of converting the dataset to grayscale and perform specified augmentation functions on it. A normalized dataset can then be generated using the histogram equalization method. We will then use analysis functions on the obtained data sets, for example calculating the average prototype of each class.
+
+The third objective is to perform segmentation and classification on the processed data. initially, we segment the objects of interest both manually and automatically. First we developed a function that obtains a bounding box for each image. After that we use this bounding box to extract features from the image. Finally we use several different types of algorithm to classify objects based on these features, for example SVM and MLP.
